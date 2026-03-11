@@ -46,7 +46,7 @@ print("     *     *      "*2)
 print("     *******      "*2,("\n"))
 
 # 2.1.15 Cuestionario de seccion
-print(" Pregunta 1: Cual es la salida del siguiente programa?")
+print("Pregunta 1: Cual es la salida del siguiente programa?")
 
 print('print("Mi\\nnombre\\nes\\nBond.",end=" ")')
 print("James Bond\n")
@@ -57,7 +57,7 @@ print("nombre")
 print("es")
 print("Bond. James Bond\n")
 
-print(" Pregunta 2: Cual es la salida del siguiente programa?")
+print("Pregunta 2: Cual es la salida del siguiente programa?")
 print('print(sep="&", "fish", "chips")\n')
 print("La salida es: &fish&chips")
 print("""La verdadera respuesta: File "main.py", line 1
@@ -65,7 +65,7 @@ print("""La verdadera respuesta: File "main.py", line 1
                   ^
 SyntaxError: positional argument follows keyword argument\n""")
 
-print(" Pregunta 3: ¿Cuál de las siguientes print() invocaciones de función generarán un SyntaxError?")
+print("Pregunta 3: ¿Cuál de las siguientes print() invocaciones de función generarán un SyntaxError?")
 print("""print('Greg\'s book.')
 print("'Greg's book.'")
 print('"Greg\'s book."')
