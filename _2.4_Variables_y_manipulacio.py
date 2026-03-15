@@ -1,5 +1,6 @@
-# 2.4.7: Variables
-print("""Escenario
+def practica_1():
+    # 2.4.7: Variables
+    print("""Escenario
 
 A continuación una historia:
 
@@ -14,16 +15,17 @@ Tu tarea es:
     Imprime el valor almacenado en total_apples en la consola;
     Experimenta con tu código: crea nuevas variables, asigna diferentes valores a ellas, y realiza varias operaciones aritméticas con ellas \(por ejemplo, +, -, *, /, //, etc.\). Intenta poner una cadena con un entero juntos en la misma línea, por ejemplo, \"Número total de manzanas:\" y total_apples.,\n""")
 
-jhon = 3
-mary = 5
-adam = 6
-total_apples = jhon + mary + adam
+    jhon = 3
+    mary = 5
+    adam = 6
+    total_apples = jhon + mary + adam
 
-print(jhon, mary, adam, sep=",")
-print(total_apples,"\n")
+    print(jhon, mary, adam, sep=",")
+    print(total_apples,"\n")
 
-# 2.4.9: Variables: un convertidor simple
-print("""Teniendo en mente que 1 milla equivale aproximadamente a 1.61 kilómetros, complementa el programa en el editor para que convierta de:
+def practica_2():
+    # 2.4.9: Variables: un convertidor simple
+    print("""Teniendo en mente que 1 milla equivale aproximadamente a 1.61 kilómetros, complementa el programa en el editor para que convierta de:
 
     Millas a kilómetros;
     Kilómetros a millas.
@@ -34,13 +36,14 @@ Pon mucha atención a lo que esta ocurriendo dentro de la función print(). Anal
 
 Nota que algunos de los argumentos dentro de la función print() son cadenas (por ejemplo, "millas son", y otros son variables (por ejemplo, miles).,\n""")
 
-millas = 7.38
-km = 12.25
-print(millas, 'millas son', millas*1.61)
-print(km, 'kilometros son', km/1.61,"\n")
+    millas = 7.38
+    km = 12.25
+    print(millas, 'millas son', millas*1.61)
+    print(km, 'kilometros son', km/1.61,"\n")
 
-# 2.4.19: Operadores y expreciones
-print("""Escenario
+def practica_3():
+    # 2.4.19: Operadores y expreciones
+    print("""Escenario
 
 Observa el código en el editor: lee un valor float, lo coloca en una variable llamada x, e imprime el valor de la variable llamada y. Tu tarea es completar el código para evaluar la siguiente expresión:
 
@@ -52,17 +55,38 @@ Recuerda que la notación algebraica clásica muy seguido omite el operador de m
 
 Mantén tu código limpio y legible, y pruébalo utilizando los datos que han sido proporcionados. No te desanimes por no lograrlo en el primer intento. Se persistente y curioso., \n""")
 
-x = 0
-x = float(x)
-y = 3* x**3 - 2 * x**2 + 3*x -1
-print("y=", y, "\n")
+    x = 0
+    x = float(x)
+    y = 3* x**3 - 2 * x**2 + 3*x -1
+    print("y=", y, "\n")
 
-x = 1
-x = float(x)
-y = 3* x**3 - 2 * x**2 + 3*x -1
-print("y=", y, "\n")
+    x = 1
+    x = float(x)
+    y = 3* x**3 - 2 * x**2 + 3*x -1
+    print("y=", y, "\n")
 
-x = -1
-x = float(x)
-y = 3* x**3 - 2 * x**2 + 3*x -1
-print("y=", y, "\n")
+    x = -1
+    x = float(x)
+    y = 3* x**3 - 2 * x**2 + 3*x -1
+    print("y=", y, "\n")
+
+while True:
+    print("\n===== 2.4 Variables y manipulacion =====")
+    print("1. Historia de las manzanas")
+    print("2. Convertidor millas/kilometros")
+    print("3. Operadores y expresiones (3x^3 - 2x^2 + 3x - 1)")
+    print("0. Salir")
+
+    opcion = input("\nElige una opcion: ")
+
+    if opcion == "1":
+        practica_1()
+    elif opcion == "2":
+        practica_2()
+    elif opcion == "3":
+        practica_3()
+    elif opcion == "0":
+        print("Hasta luego!")
+        break
+    else:
+        print("Opcion no valida, intenta de nuevo.")
