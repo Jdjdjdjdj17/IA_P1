@@ -1,5 +1,5 @@
 def practica_1():
-    # 2.4.7: Variables
+    print("=== 2.4.7: Variables - Historia de las manzanas ===\n")
     print("""Escenario
 
 A continuación una historia:
@@ -24,7 +24,7 @@ Tu tarea es:
     print(total_apples,"\n")
 
 def practica_2():
-    # 2.4.9: Variables: un convertidor simple
+    print("=== 2.4.9: Variables - Convertidor simple ===\n")
     print("""Teniendo en mente que 1 milla equivale aproximadamente a 1.61 kilómetros, complementa el programa en el editor para que convierta de:
 
     Millas a kilómetros;
@@ -42,7 +42,7 @@ Nota que algunos de los argumentos dentro de la función print() son cadenas (po
     print(km, 'kilometros son', km/1.61,"\n")
 
 def practica_3():
-    # 2.4.19: Operadores y expreciones
+    print("=== 2.4.19: Operadores y expresiones ===\n")
     print("""Escenario
 
 Observa el código en el editor: lee un valor float, lo coloca en una variable llamada x, e imprime el valor de la variable llamada y. Tu tarea es completar el código para evaluar la siguiente expresión:
@@ -72,9 +72,9 @@ Mantén tu código limpio y legible, y pruébalo utilizando los datos que han si
 
 while True:
     print("\n===== 2.4 Variables y manipulacion =====")
-    print("1. Historia de las manzanas")
-    print("2. Convertidor millas/kilometros")
-    print("3. Operadores y expresiones (3x^3 - 2x^2 + 3x - 1)")
+    print("1. 2.4.7  - Variables - Historia de las manzanas")
+    print("2. 2.4.9  - Variables - Convertidor simple")
+    print("3. 2.4.19 - Operadores y expresiones (3x^3 - 2x^2 + 3x - 1)")
     print("0. Salir")
 
     opcion = input("\nElige una opcion: ")
