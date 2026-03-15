@@ -1,14 +1,14 @@
 def practica_1():
-    # 2.1.5: Trabajando con la funcion print()
+    print("=== 2.1.5: Trabajando con la funcion print() ===\n")
     print("¡Hola, mundo!\n\n")
 
 def practica_2():
-    # 2.1.12: La funcion print() y sus argumentos
+    print("=== 2.1.12: La funcion print() y sus argumentos ===\n")
     print(" Programming","Essencials","in",sep="***",end="...")
     print("Python\n\n")
 
 def practica_3():
-    # 2.1.13: Dando formato a la salida
+    print("=== 2.1.13: Dando formato a la salida ===\n")
     print("COn los menos print que se puedan")
     print("     *\n","   * *\n","  *   *\n"," *     *\n","***   ***\n","  *   *\n","  *   *\n","  *****\n")
 
@@ -49,7 +49,7 @@ def practica_3():
     print("     *******      "*2,("\n"))
 
 def practica_4():
-    # 2.1.15 Cuestionario de seccion
+    print("=== 2.1.15: Cuestionario de seccion ===\n")
     print("Pregunta 1: Cual es la salida del siguiente programa?")
 
     print('print("Mi\\nnombre\\nes\\nBond.",end=" ")')
@@ -79,10 +79,10 @@ print('"Greg's book."')""")
 
 while True:
     print("\n===== 2.1 Uso de print() =====")
-    print("1. Hola mundo")
-    print("2. Argumentos de print()")
-    print("3. Dando formato a la salida")
-    print("4. Cuestionario de seccion")
+    print("1. 2.1.5  - Trabajando con la funcion print()")
+    print("2. 2.1.12 - La funcion print() y sus argumentos")
+    print("3. 2.1.13 - Dando formato a la salida")
+    print("4. 2.1.15 - Cuestionario de seccion")
     print("0. Salir")
 
     opcion = input("\nElige una opcion: ")
