@@ -1,5 +1,5 @@
 def practica_1():
-    # 2.6.9: Entradas y salidas simples
+    print("=== 2.6.9: Entradas y salidas simples ===\n")
     print("""Escenario
 
 Tu tarea es completar el código para evaluar los resultados de cuatro operaciones aritméticas básicas.
@@ -23,7 +23,7 @@ No te mostraremos ningún dato de prueba - eso sería demasiado simple.,\n""")
     print("\n¡Eso es todo, amigos!")
 
 def practica_2():
-    # 2.6.10: Operadores y expreciones
+    print("=== 2.6.10: Operadores y expresiones ===\n")
     print("""Escenario
 
 Tu tarea es completar el código para poder evaluar la siguiente expresión: 1/(x+1/(x+1/(x+(1/x))))""")
@@ -31,7 +31,7 @@ Tu tarea es completar el código para poder evaluar la siguiente expresión: 1/(
     print("y = ", 1/(x+1/(x+1/(x+(1/x)))))
 
 def practica_3():
-    # 2.6.11: Operadores y expresiones -2
+    print("=== 2.6.11: Operadores y expresiones 2 ===\n")
     print("""Escenario
 
 La tarea es preparar un código simple para evaluar o encontrar el tiempo final de un periodo de tiempo dado, expresándolo en horas y minutos. La hora de inicio se da como un par de horas (0..23) y minutos (0..59). El resultado debe ser mostrado en la consola.
@@ -53,9 +53,9 @@ Prueba el código cuidadosamente. Pista: utilizar el operador % puede ser clave 
 
 while True:
     print("\n===== 2.6 Interaccion con el usuario =====")
-    print("1. Cuatro operaciones aritmeticas")
-    print("2. Expresion con fracciones continuas")
-    print("3. Calculadora de tiempo de eventos")
+    print("1. 2.6.9  - Entradas y salidas simples")
+    print("2. 2.6.10 - Operadores y expresiones")
+    print("3. 2.6.11 - Operadores y expresiones 2")
     print("0. Salir")
 
     opcion = input("\nElige una opcion: ")
