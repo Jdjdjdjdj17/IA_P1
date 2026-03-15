@@ -1,10 +1,10 @@
 def practica_1():
-    # 2.2.6: Literales de Python
+    print("=== 2.2.6: Literales de Python ===\n")
     print("Escriba un fragmento de código de una línea, utilizando la función print(), así como los caracteres de nuevalínea y de escape, para que coincida con el resultado esperado que se muestra en la salida.")
     print("\"Estoy\"\n\"\"aprendiendo\"\"\n\"\"\"Python\"\"\"\n")
 
 def practica_2():
-    # 2.2.8: Cuestionario de seccion
+    print("=== 2.2.8: Cuestionario de seccion ===\n")
     print("Pregunta 1: ¿Qué tipos de literales son los siguientes dos ejemplos?")
     print('"Hola ", "007"')
     print("Son cadenas\n")
@@ -19,8 +19,8 @@ def practica_2():
 
 while True:
     print("\n===== 2.2 Literales de Python =====")
-    print("1. Literales de Python (ejercicio)")
-    print("2. Cuestionario de seccion")
+    print("1. 2.2.6 - Literales de Python (ejercicio)")
+    print("2. 2.2.8 - Cuestionario de seccion")
     print("0. Salir")
 
     opcion = input("\nElige una opcion: ")
