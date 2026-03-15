@@ -1,5 +1,5 @@
 def practica_1():
-    # 3.1.6: Variables - Preguntas y respuestas
+    print("=== 3.1.6: Variables - Preguntas y respuestas ===\n")
     print("""Escenario
 
 Usando uno de los operadores de comparación en Python, escribe un programa simple de dos líneas que tome el parámetro n como entrada, que es un entero, e imprime False si n es menor que 100, y True if n es mayor o igual que 100.""")
@@ -9,7 +9,7 @@ Usando uno de los operadores de comparación en Python, escribe un programa simp
     print("El numero ", n, "es mayor que 100: ", (n>100),"\n")
 
 def practica_2():
-    # 3.1.10: Operadores de comparacion y ejecucion condicional
+    print("=== 3.1.10: Operadores de comparacion y ejecucion condicional ===\n")
     print("""Escenario
 
 Espatifilo, más comúnmente conocida como la planta de Cuna de Moisés o flor de la paz, es una de las plantas para interiores más populares que filtra las toxinas dañinas del aire. Algunas de las toxinas que neutraliza incluyen benceno, formaldehído y amoníaco.
@@ -30,7 +30,7 @@ Escribe un programa que utilice el concepto de ejecución condicional, tome una 
     else: print("¡Espatifilio!, ¡No", str + "!\n")
 
 def practica_3():
-    # 3.1.11: Fundamentos de la sentencia if-else
+    print("=== 3.1.11: Fundamentos de la sentencia if-else ===\n")
     print("""Escenario
 
 Érase una vez una tierra de leche y miel - habitada por gente feliz y próspera. La gente pagaba impuestos, por supuesto - su felicidad tenía límites. El impuesto más importante, denominado Impuesto Personal de Ingresos (IPI, para abreviar) tenía que pagarse una vez al año y se evaluó utilizando la siguiente regla:
@@ -55,9 +55,9 @@ Nota: este país feliz nunca devuelve dinero a sus ciudadanos. Si el impuesto ca
 
 while True:
     print("\n===== 3.1 Tomar decisiones =====")
-    print("1. Mayor o menor que 100")
-    print("2. La planta Espatifilio")
-    print("3. Calculadora de impuestos (IPI)")
+    print("1. 3.1.6  - Variables - Preguntas y respuestas")
+    print("2. 3.1.10 - Operadores de comparacion y ejecucion condicional")
+    print("3. 3.1.11 - Fundamentos de la sentencia if-else")
     print("0. Salir")
 
     opcion = input("\nElige una opcion: ")
