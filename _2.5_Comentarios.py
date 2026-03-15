@@ -1,5 +1,5 @@
 def practica_1():
-    # 2.5.3: Comentarios
+    print("=== 2.5.3: Comentarios ===\n")
 
     #este programa calcula los segundos en cierto número de horas determinadas
 
@@ -13,7 +13,7 @@ def practica_1():
 
 while True:
     print("\n===== 2.5 Comentarios =====")
-    print("1. Calculo de segundos en horas")
+    print("1. 2.5.3 - Calculo de segundos en horas")
     print("0. Salir")
 
     opcion = input("\nElige una opcion: ")
